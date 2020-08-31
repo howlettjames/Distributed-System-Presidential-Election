@@ -8,6 +8,7 @@ Design and implement a prototype of a distributed system to tackle down the prob
 
 ## Tech Stack
 * C++
+* C
 * Javascript
 * Materialize
 * HTML 5
