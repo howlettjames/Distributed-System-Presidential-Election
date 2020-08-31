@@ -1,10 +1,18 @@
 # Distributed System for Presidential Election
 
-### This is a project done during the course [Distributed Systems Programming](https://github.com/howlettjames/Distributed-Systems-Programming "Repository") taken at ESCOM - IPN. The purpouse of this project was to learn how to design and implement a Distributed System in C++ language. It was accomplished succesfully having met all the Criteria and thus achieving a 10/10 grade in the subject.
+### This is a project done during the course [Distributed Systems Programming](https://github.com/howlettjames/Distributed-Systems-Programming "Repository") taken at ESCOM - IPN. The purpose of this project was to learn how to design and implement a Distributed System in C++ language. It was accomplished succesfully having met all the Criteria and thus achieving a 10/10 grade in the subject.
 
 ## Task
 
 Design and implement a prototype of a distributed system to tackle down the problem of register, store and show in a web page the statistics of the votes received from a fictional text messaging service (SMS) national server.
+
+## Tech Stack
+* C++
+* Javascript
+* Materialize
+* HTML 5
+* CSS
+* User Datagram Protocol (UDP)
 
 ## Criteria
 
