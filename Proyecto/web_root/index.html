@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>ADMINISTRADOR WEB</title>
+<meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!-- CSS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="./css/materialize.min.css" rel="stylesheet">
+<link href="./css/jquery-confirm.min.css" rel="stylesheet">
+<!-- <link href="./css/chart.min.css" rel="stylesheet"> -->
+<link href="./css/misEstilos.css" rel="stylesheet">
+<!-- SCRIPTS -->
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/materialize.min.js"></script>
+<script src="./js/jquery-confirm.min.js"></script>
+<!-- <script src="./js/chart.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="./js/index.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function()
+{
+    // SIDENAVS
+    let sidenavs = document.querySelector(".sidenav");
+    let sidenav_instances = M.Sidenav.init(sidenavs);
+});
+</script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper teal lighten-1">
+                <a href="#" class="brand-logo"></a>
+                <ul id="nav-mobile" class="center hide-on-med-and-down">
+                    <a class="waves-effect waves-light btn" id="votos_totales_btn">Votos totales: </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="valign-wrapper s12 l4">
+    </main>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card red lighten-1" id="servidor_card1">
+                <div class="card-content white-text center">
+                    <span class="card-title">Servidor 1</span>
+                    <div id="server_info_container_1"></div>
+                </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+            <div class="card red lighten-1" id="servidor_card2">
+                <div class="card-content white-text center">
+                    <span class="card-title">Servidor 2</span>
+                    <div id="server_info_container_2"></div>
+                </div>
+          </div>
+        </div>
+        <div class="col s6 m4">
+            <div class="card red lighten-1" id="servidor_card3">
+                <div class="card-content white-text center">
+                    <span class="card-title">Servidor 3</span>
+                    <div id="server_info_container_3"></div>
+                </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+    <canvas id="myChart" width="1000" height="500"></canvas>
+        
+    </div>
+
+    <footer class="page-footer teal">
+        <div class="footer-copyright teal darken-1">
+        <div class="container">
+            &copy; 2020 Dragma - A Kessler Company product
+            <a class="grey-text text-lighten-4 right" href="http://www.escom.ipn.mx">#Escom</a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
