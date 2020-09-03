@@ -1,6 +1,6 @@
 # Distributed System for Presidential Election
 
-### This is a project done during the course [Distributed Systems Programming](https://github.com/howlettjames/Distributed-Systems-Programming "Repository") taken at ESCOM - IPN. The purpose of this project was to learn how to design and implement a Distributed System in C++ language coding an entire library from raw sockets up to a web page where the final user could see the results.
+### This is a project done during the course [Distributed Systems Programming](https://github.com/howlettjames/Distributed-Systems-Programming "Repository") taken at ESCOM - IPN. The purpose of this project was to learn how to design and implement a Distributed System in C++ language coding an entire Object Oriented library from raw sockets up to a web page where the final user could see the results. You can see results and a deeper insight into the system [here](https://github.com/howlettjames/Distributed-System-Presidential-Election/blob/master/REPORTE_PR%C3%81CTICA.pdf).
 
 ## Task
 
@@ -29,4 +29,4 @@ Design and implement a prototype of a distributed system to tackle down the prob
 
 ## How the project looks running with three servers
 
-![Project running]("Project running")
+![Project running](https://github.com/howlettjames/Distributed-System-Presidential-Election/blob/master/Proyecto/Test/dsd.png "Project running")
