@@ -1,6 +1,6 @@
 # Distributed System for Presidential Election
 
-### This is a project done during the course [Distributed Systems Programming](https://github.com/howlettjames/Distributed-Systems-Programming "Repository") taken at ESCOM - IPN. The purpose of this project was to learn how to design and implement a Distributed System in C++ language. It was accomplished succesfully having met all the Criteria and thus achieving a 10/10 grade in the subject.
+### This is a project done during the course [Distributed Systems Programming](https://github.com/howlettjames/Distributed-Systems-Programming "Repository") taken at ESCOM - IPN. The purpose of this project was to learn how to design and implement a Distributed System in C++ language coding an entire library from raw sockets up to a web page where the final user could see the results.
 
 ## Task
 
@@ -26,3 +26,7 @@ Design and implement a prototype of a distributed system to tackle down the prob
 * Because it is a distributed system use 3 servers to do all the task. This involves having a balance and a communication mechanism among the servers.
 
 * Last, the system must have a web interface i.e. a web page in which the administrators can check the statistics about all the votes registered in real time. This involves that each of the servers will have a web server embedded, use [Mongoose](https://cesanta.com/docs/overview/intro.html) for this task.
+
+## How the project looks running with three servers
+
+![Project running]("Project running")
